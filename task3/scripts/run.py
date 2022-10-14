@@ -65,11 +65,6 @@ def main():
 
 if __name__ == '__main__':
     print("start time:", (datetime.utcnow() + timedelta(hours=8)).strftime('%Y-%m-%d %H:%M:%S'))
-    # main()
-    config = Config()
-    model = ESIM(config).to(config.device)
-    train_set, dev_set, test_set = build_dataset(config)
-    test_set = DataLoader(test_set, batch_size=config.batch_size, shuffle=True, num_workers=0)
-    test(model, config, test_set)
+    main()
     print("end time:", (datetime.utcnow() + timedelta(hours=8)).strftime('%Y-%m-%d %H:%M:%S'))
 
