@@ -1,0 +1,86 @@
+start time: 2022-10-15 06:21:08
+loading data...
+snli_1.0_train.jsonl loaded succcess, 549367 in total.
+snli_1.0_dev.jsonl loaded succcess, 9842 in total.
+snli_1.0_test.jsonl loaded succcess, 9824 in total.
+Time used: 0:00:10
+ESIM(
+  (embedding): Embedding(400003, 600, padding_idx=400002)
+  (encoding): LSTM(600, 600, batch_first=True, bidirectional=True)
+  (composition): LSTM(4800, 600, batch_first=True, bidirectional=True)
+  (mlp): Sequential(
+    (0): Dropout(p=0.3, inplace=False)
+    (1): Linear(in_features=4800, out_features=600, bias=True)
+    (2): Tanh()
+    (3): Linear(in_features=600, out_features=3, bias=True)
+  )
+)
+Epoch [1/20]
+Iter:   1000,  Train Loss:   1.0,  Train Acc: 56.25%,  Val Loss:  0.98,  Val Acc: 55.08%,  Time: 0:04:16*
+Iter:   2000,  Train Loss:  0.95,  Train Acc: 56.25%,  Val Loss:  0.92,  Val Acc: 61.34%,  Time: 0:08:34*
+Iter:   3000,  Train Loss:  0.83,  Train Acc: 73.44%,  Val Loss:   0.9,  Val Acc: 64.25%,  Time: 0:12:59*
+Iter:   4000,  Train Loss:  0.88,  Train Acc: 67.19%,  Val Loss:  0.88,  Val Acc: 65.79%,  Time: 0:17:25*
+Iter:   5000,  Train Loss:  0.84,  Train Acc: 68.75%,  Val Loss:  0.87,  Val Acc: 66.63%,  Time: 0:21:32*
+Iter:   6000,  Train Loss:  0.91,  Train Acc: 62.50%,  Val Loss:  0.87,  Val Acc: 66.54%,  Time: 0:25:39*
+Iter:   7000,  Train Loss:  0.85,  Train Acc: 70.31%,  Val Loss:  0.87,  Val Acc: 66.97%,  Time: 0:29:28*
+Iter:   8000,  Train Loss:  0.86,  Train Acc: 68.75%,  Val Loss:  0.86,  Val Acc: 68.45%,  Time: 0:33:18*
+Iter:   8584,  Train Loss:  0.97,  Train Acc: 56.36%,  Val Loss:  0.86,  Val Acc: 68.35%,  Time: 0:35:31
+Epoch [2/20]
+Iter:   9000,  Train Loss:  0.86,  Train Acc: 70.31%,  Val Loss:  0.86,  Val Acc: 68.63%,  Time: 0:37:11
+Iter:  10000,  Train Loss:  0.75,  Train Acc: 78.12%,  Val Loss:  0.86,  Val Acc: 68.35%,  Time: 0:40:56
+Iter:  11000,  Train Loss:  0.84,  Train Acc: 67.19%,  Val Loss:  0.86,  Val Acc: 68.34%,  Time: 0:44:39
+Iter:  12000,  Train Loss:  0.87,  Train Acc: 68.75%,  Val Loss:  0.85,  Val Acc: 68.74%,  Time: 0:48:36*
+Iter:  13000,  Train Loss:  0.94,  Train Acc: 60.94%,  Val Loss:  0.86,  Val Acc: 68.10%,  Time: 0:52:21
+Iter:  14000,  Train Loss:  0.91,  Train Acc: 62.50%,  Val Loss:  0.85,  Val Acc: 69.05%,  Time: 0:56:11*
+Iter:  15000,  Train Loss:  0.85,  Train Acc: 70.31%,  Val Loss:  0.85,  Val Acc: 69.21%,  Time: 1:00:06*
+Iter:  16000,  Train Loss:  0.92,  Train Acc: 62.50%,  Val Loss:  0.85,  Val Acc: 69.66%,  Time: 1:04:01*
+Iter:  17000,  Train Loss:  0.79,  Train Acc: 76.56%,  Val Loss:  0.84,  Val Acc: 69.60%,  Time: 1:07:52*
+Iter:  17168,  Train Loss:  0.86,  Train Acc: 70.91%,  Val Loss:  0.84,  Val Acc: 69.80%,  Time: 1:08:36
+Epoch [3/20]
+Iter:  18000,  Train Loss:  0.84,  Train Acc: 70.31%,  Val Loss:  0.85,  Val Acc: 69.25%,  Time: 1:11:36
+Iter:  19000,  Train Loss:  0.91,  Train Acc: 62.50%,  Val Loss:  0.85,  Val Acc: 69.21%,  Time: 1:15:16
+Iter:  20000,  Train Loss:  0.84,  Train Acc: 70.31%,  Val Loss:  0.85,  Val Acc: 69.55%,  Time: 1:18:52
+Iter:  21000,  Train Loss:  0.83,  Train Acc: 71.88%,  Val Loss:  0.85,  Val Acc: 69.06%,  Time: 1:22:31
+Iter:  22000,  Train Loss:  0.73,  Train Acc: 82.81%,  Val Loss:  0.85,  Val Acc: 69.60%,  Time: 1:26:08
+Iter:  23000,  Train Loss:   0.8,  Train Acc: 73.44%,  Val Loss:  0.84,  Val Acc: 69.51%,  Time: 1:29:41
+Iter:  24000,  Train Loss:  0.82,  Train Acc: 70.31%,  Val Loss:  0.85,  Val Acc: 69.33%,  Time: 1:33:17
+Iter:  25000,  Train Loss:  0.87,  Train Acc: 65.62%,  Val Loss:  0.84,  Val Acc: 70.44%,  Time: 1:37:05*
+Iter:  25752,  Train Loss:  0.87,  Train Acc: 65.45%,  Val Loss:  0.84,  Val Acc: 70.14%,  Time: 1:39:51
+Epoch [4/20]
+Iter:  26000,  Train Loss:  0.78,  Train Acc: 78.12%,  Val Loss:  0.84,  Val Acc: 70.28%,  Time: 1:40:52
+Iter:  27000,  Train Loss:  0.81,  Train Acc: 76.56%,  Val Loss:  0.85,  Val Acc: 69.90%,  Time: 1:44:31
+Iter:  28000,  Train Loss:  0.92,  Train Acc: 64.06%,  Val Loss:  0.85,  Val Acc: 70.11%,  Time: 1:48:10
+Iter:  29000,  Train Loss:  0.86,  Train Acc: 70.31%,  Val Loss:  0.84,  Val Acc: 69.87%,  Time: 1:51:53
+Iter:  30000,  Train Loss:  0.74,  Train Acc: 81.25%,  Val Loss:  0.84,  Val Acc: 70.54%,  Time: 1:55:41*
+Iter:  31000,  Train Loss:  0.82,  Train Acc: 73.44%,  Val Loss:  0.84,  Val Acc: 70.46%,  Time: 1:59:31*
+Iter:  32000,  Train Loss:  0.95,  Train Acc: 57.81%,  Val Loss:  0.84,  Val Acc: 70.28%,  Time: 2:03:10
+Iter:  33000,  Train Loss:   0.8,  Train Acc: 75.00%,  Val Loss:  0.84,  Val Acc: 70.24%,  Time: 2:06:49
+Iter:  34000,  Train Loss:  0.76,  Train Acc: 81.25%,  Val Loss:  0.85,  Val Acc: 69.64%,  Time: 2:10:33
+Iter:  34336,  Train Loss:  0.79,  Train Acc: 76.36%,  Val Loss:  0.84,  Val Acc: 70.09%,  Time: 2:11:56
+Epoch [5/20]
+Iter:  35000,  Train Loss:  0.84,  Train Acc: 71.88%,  Val Loss:  0.84,  Val Acc: 70.13%,  Time: 2:14:27
+Iter:  36000,  Train Loss:  0.78,  Train Acc: 76.56%,  Val Loss:  0.84,  Val Acc: 70.31%,  Time: 2:18:05
+Iter:  37000,  Train Loss:  0.83,  Train Acc: 71.88%,  Val Loss:  0.84,  Val Acc: 70.04%,  Time: 2:21:48
+Iter:  38000,  Train Loss:  0.76,  Train Acc: 79.69%,  Val Loss:  0.84,  Val Acc: 70.26%,  Time: 2:25:31
+Iter:  39000,  Train Loss:  0.78,  Train Acc: 75.00%,  Val Loss:  0.84,  Val Acc: 70.07%,  Time: 2:29:13
+Iter:  40000,  Train Loss:  0.83,  Train Acc: 71.88%,  Val Loss:  0.84,  Val Acc: 70.53%,  Time: 2:32:56
+Iter:  41000,  Train Loss:  0.86,  Train Acc: 70.31%,  Val Loss:  0.84,  Val Acc: 70.53%,  Time: 2:36:42
+No optimization for a long time, auto-stopping...
+Confusion Matrix...
+[[2213  439  567]
+ [ 529 2180  528]
+ [ 496  348 2524]]
+Precision, Recall and F1-Score...
+               precision    recall  f1-score   support
+
+      neutral     0.6834    0.6875    0.6855      3219
+contradiction     0.7347    0.6735    0.7028      3237
+   entailment     0.6974    0.7494    0.7225      3368
+
+     accuracy                         0.7041      9824
+    macro avg     0.7052    0.7034    0.7036      9824
+ weighted avg     0.7051    0.7041    0.7039      9824
+
+Test Loss:  0.84,  Test Acc: 70.41%
+Time usage: 0:00:09
+end time: 2022-10-15 08:58:18
